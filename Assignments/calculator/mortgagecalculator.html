@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <!--
+      Assignment#1     
+
+      Designed by: Chandra K. Rai
+      Student ID No: 300890510 
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: mortgagecalculator.html
+   -->
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Mortgage Calculator</title>
+<link href="formStylesheet.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="allPage">
+<form>
+<header>
+<h1>Mortgage Calculator</h1>
+</header>
+<fieldset>	
+<legend>Pick your favorite font color for the Form</legend>
+	<table id="colortable">
+		<tr>
+			<td style="height: 23px"> <button type="button" onclick="white()">White</button>			
+			<button type="button" onclick="yellow()">Yellow</button>	
+			<button type="button" onclick="green()">Green</button>		
+			<button type="button" onclick="blue()">Blue</button>
+			<button type="button" onclick="red()">Red</button>
+			<button type="button" onclick="violet()">Violet</button>
+			<button type="button" onclick="black()">Black</button>
+			</td>
+		</tr>	
+		</table>
+</fieldset>
+<fieldset>	
+<legend>Fill up the Information</legend>
+	<table id="main" >		
+		<tr>
+			<td>Mortgage Amount</td>			
+		</tr>
+		<tr>
+			<td>			
+				<input id="mortgageAmount" required="required" placeholder="$0.00" name="MortgageAmount" type="text"  size="25" tabindex="2"></td>			
+		</tr>
+		<tr>			
+			<td>Down Payment Option</td>
+		</tr>
+		<tr>			
+			<td>
+			<input id="fivePercent" name="btnRadio" type="radio" value="1" tabindex="3" onclick="fivePercentCalculate()">5%<input id="tenPercent" name="btnRadio" type="radio" value="2" tabindex="4" onclick="tenPercentCalculate()">10%<input id="fifteenPercent" name="btnRadio" type="radio" value="2" tabindex="5" onclick="fifteenPercentCalculate()">15%<input id="twentyPercent" name="btnRadio" type="radio" value="2" tabindex="6" onclick="twentyPercentCalculate()">20%<input id="twentyfivePercent" name="btnRadio" type="radio" value="2" tabindex="7" onclick="twentyfivePercentCalculate()">25%</td>
+			<td>The total monthly payment is: <span id='total'></span></td>
+		</tr>
+		<tr>
+			<td>Down Payment</td>			
+		</tr>
+		<tr>
+			<td>
+			<input id="downPayment" required="required" placeholder="$0.00" name="DownPayment" type="text" size="25" tabindex="8"></td>			
+		</tr>
+		<tr>
+			<td>Amortization</td>			
+		</tr>
+		<tr>
+			<td><input id="amortization" placeholder="How long?" name="txtCity" type="text" size="25" tabindex="9" onchange="calculateMortgage()">(Years)</td>			
+		</tr>
+		<tr>
+			<td>Interest Rate</td>			
+		</tr>
+		<tr>
+			<td>
+			<input id='interestRate' name="InterestRate" type="number" min="0" max="100" step="0.1"  size="5" tabindex="10" onchange="calculateMortgage()">%</td>			
+		</tr>		
+		</table>
+</fieldset>
+		<table id="secondtable">
+			<tr>
+				<td>
+				<input id="calculate" name="Button1" type="button" value="Calculate Payment" onClick="calculateMortgage()"></td>
+				<td>
+				<input id="reset" name="Reset1" type="reset" value="Clear Form" tabindex="12"></td>
+			</tr>
+			</table>				
+</form>
+<footer>
+		<h5>&copy;&nbsp;Copyright Chandra K. Rai, Student ID No. 300890510<br> Client Side Web Development - Winter 2017<br>Powered by: Vinayagathas Vaithilingam,  School of Software Engineering and Applied Science<br></h5>
+</footer>
+</div>
+</body>
+</html>

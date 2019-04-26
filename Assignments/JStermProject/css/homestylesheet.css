@@ -1,0 +1,568 @@
+﻿/*
+      Term Project     
+
+      Designed by: Chandra K. Rai, Timothy, Shukor, and Yunxiang    
+      Title of Project: Online Books Sale
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: homestylesheet.css
+*/
+
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: gray;
+	margin: 0px;
+}
+#counter {
+	float: right;
+	margin-right: 10px;
+}
+#countertext {
+	float: right;
+}
+#topmain {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: #314A87;
+	background-color: #131A22;
+	font-weight: 700;
+	padding: 6px;
+}
+#nav {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #B5C443;
+	background-color: #232F3E;
+	padding: 5px;
+}
+#nav a {
+	text-decoration: none;
+}
+#nav table tr td a {
+	color: #B5C443;
+}
+#nav table h5 a:hover {
+	color: white;
+	background-color: #557AC0;
+	padding: 15px 2px;
+}
+#address {
+	margin-left: 250px;
+}
+header {
+	z-index: 2;
+	width: 100%;
+	clear: both;
+	margin: 0px;
+	position: fixed;
+}
+#counter img {
+	margin: 0px;
+	padding: 10px 0px;
+}
+#nav img {
+	margin: 0px 0px 0px 240px;
+}
+table td {
+	height: 43px;
+	width: 80px;
+	text-align: bottom;
+}
+footer {
+	background-color: #232F3E;
+	color: white;
+	height: 220px;
+}
+#signature {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#signature table tr td {
+	height: 8px;
+	padding: 10px;
+	white-space: nowrap;
+}
+#signature table tr td img {
+	margin: 0px 15px;
+}
+#layer1 {
+	position: absolute;
+	left: 0px;
+	top: 143px;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+hr {
+	background-color: #B5C443;	
+	height: 2px;
+	border-width: 0;
+}
+#layer1 h1 {
+	text-align: center;
+	margin-top: 300px;
+}
+#layer1 h2 {
+	text-align: center;
+}
+#slide img {
+	margin-top: 50px;
+}
+#copyright {
+	background-color: #131A22;
+	width: 100%;
+	padding: 5px 0 5px 0;
+	margin: 0px;
+}
+#icons img {
+	margin: 4px;
+}
+#banner img {
+	box-shadow: 2px 2px 2px #232F3E;
+}
+#quote {
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: larger;
+}
+.personal {
+	margin: 40px 0px 40px 600px;
+	width: 270px;
+	background-color: #FFF;
+	text-align: center;
+	font-size: .8em;
+	padding: 5px;
+	border: 1px solid #CCC;
+	box-shadow: 5px 5px 5px #828282;
+	transform: rotate(4deg);
+}
+.personal1 {
+	margin: 40px 0px 40px 80px;
+	width: 270px;
+	background-color: #FFF;
+	text-align: center;
+	font-size: .8em;
+	padding: 5px;
+	border: 1px solid #CCC;
+	box-shadow: 5px 5px 5px #828282;
+	transform: rotate(4deg);
+}
+.property {
+	margin-top: 80px;
+}
+.property img {
+	width: 150px;
+	margin-left: 10px;
+	height: 200px;
+	background-color: #FFF;
+	text-align: center;
+	font-size: .8em;
+	padding: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 5px 5px 5px #828282;
+}
+#ads img {
+	height: 200px;
+	width: 150px;
+	margin-left: 5px;
+	background-color: #FFF;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #CCC;
+	box-shadow: 5px 5px 5px #828282;
+}
+#ads table {
+	width: 100%;
+	margin-left: 20px;
+}
+#ads table tr td {
+	text-align: center;
+}
+#ads {
+	padding: 5px;
+	background-color: #F2F4F5;
+}
+.lines p {
+	text-align: center;
+	column-count: 3;
+}
+#homefieldset {
+	margin: 20px 50px;
+	width: 90%;
+}
+#homefieldset p:first-letter {
+	font-size: 3em;
+	font-weight: bold;
+	color: black;
+	font-family: "Lucida Calligraphy";
+}
+#sold img {
+	width: 30px;
+	height: 15px;
+}
+#info {
+	width: 980px;
+	margin-left: 250px;
+	border-radius: 10px;
+}
+#property {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#property img {
+	margin-left: 150px;
+	border: 3px solid #CCC;
+	box-shadow: 5px 5px 5px #828282;
+}
+#property table 
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.checknext a {
+	text-decoration: none;
+	color: gray;
+}
+#ads h5 a {
+	color: gray;
+}
+#button {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 5px 5px 5px #828282;
+}
+#button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+#button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+#button:hover span {
+	padding-right: 30px;
+}
+#button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+.feature {
+	text-align: center;
+}
+.feature1 {
+	text-align: center;
+	width: 0px;
+	color: #f4511e;
+	text-shadow: 2px 2px 4px #000000;
+	padding: 50px;
+}
+table {
+	margin: 30px 0;
+}
+#animation {
+	width: 100px;
+	height: 130px;
+	background-image: url('../images/newyork.png');
+	box-shadow: 5px 5px 5px #828282;
+	position: relative;
+	-webkit-animation: mymove 14s infinite; /* Safari 4.0 - 8.0 */;
+	-webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */;
+	animation: mymove 13s infinite;
+	animation-timing-function: linear;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+#animation1 {
+	width: 100px;
+	height: 130px;
+	background-image: url('../images/Arrangement.png');
+	box-shadow: 5px 5px 5px #828282;
+	position: relative;
+	-webkit-animation1: mymove1 11s infinite; /* Safari 4.0 - 8.0 */;
+	-webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */;
+	animation: mymove1 11s infinite;
+	animation-timing-function: linear;
+}
+@keyframes mymove1 {
+    from {left:0px;}
+    to {left:500px;}
+}
+#animation2 {
+	width: 100px;
+	height: 130px;
+	background-image: url('../images/toronto.png');
+	box-shadow: 5px 5px 5px #828282;
+	position: relative;
+	-webkit-animation1: mymove2 8s infinite; /* Safari 4.0 - 8.0 */;
+	-webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */;
+	animation: mymove2 8s infinite;
+	animation-timing-function: linear;
+}
+@keyframes mymove2 {
+    from {left:0px;}
+    to {left:160px;}
+}
+#arrow table tr td {
+	width: 0px;
+	color: #f4511e;
+	text-shadow: 2px 2px 4px #000000;
+}
+#loginAllpage {
+	width: 700px;
+	margin: 25px auto;
+	border-radius: 15px;
+	background-color: #131A22;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 2px;
+}
+fieldset {
+	border-radius: 15px;
+	margin: 20px;
+}
+#loginAllpage h3 {
+	color: #B6C643;
+	background-color: #387385;
+	text-align: center;
+	padding: 7px;
+	font-weight: 700;
+	box-shadow: 6px 6px 6px #808080;
+	border-radius: 5px;
+	margin: 40px 120px;
+}
+#background {
+	background-color: #F2F4F5;
+}
+#loginAllpage table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+#message {
+	position: fixed;
+	margin: 30px;
+}
+label:before {
+	content: "*";
+	color: red;
+	font-size: 25px;
+}
+#applyButton {
+	border: 0px solid #0a3c59;
+	border-radius: 5px;
+	background: #3e779d;
+	padding: 10px 20px;
+	box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #e1e8ed;
+	font-size: 16px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+#applyButton:hover {
+	border: 0px solid #0a3c59;
+	text-shadow: #1e4158 0 1px 0;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	color: #3665ad;
+}
+#applyButton:active {
+	text-shadow: #1e4158 0 1px 0;
+	border: 0px solid #0a3c59;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+	color: #fff;
+}
+input[type=text], #password, #confirmpass, #gender, #region, #country {
+	width: 95%;
+	box-shadow: 2px 2px 2px #828282;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 13px;
+	background-color: white;
+	background-repeat: no-repeat;
+	padding: 3px 3px 3px 6px;
+}
+aside {
+	text-align: center;
+	width: 15em;
+	padding: 1em;	
+	background-color: #DADADA;
+	font-size: 90%;
+	box-shadow: 5px 5px 5px #828282;
+}
+aside a {
+	text-decoration:none;
+	color: #F4511E;
+}
+.homebutton {
+	background-color: #232F3E;
+	float: right;
+	border-radius: 5px;
+	color: grey;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.homebutton:hover {
+	border: solid #131A22;
+}
+#bookgallery h1 {
+	color: orange;
+	text-shadow: 5px 5px 5px #828282;
+	text-align: center;
+}
+#gallery {
+	position: relative;
+	text-align: center;
+	padding: 40px 0;
+}
+#gallery ul {
+	list-style-type: none;
+	width: 600px;;
+}
+#gallery li {
+	display: inline;
+	float: left;
+	padding: 20px;
+}
+#gallery img {
+	border-style: none;
+	float: left;
+}
+#gallery a {
+	text-decoration: none;
+	font-style: italic;
+}
+#gallery span {
+	display: none;
+}
+#gallery a:hover span {
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 700px;
+	text-align: center;
+	color: orange;
+}
+
+#card {
+	width: 256px;
+	height: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#F2F4F5;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 600px;
+	padding: 20px;
+}
+
+#userdata {
+	width: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('../images/searchicon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	float: right;
+	margin: 5px;
+}
+#userdata:focus {
+	width: 20%;
+}
+#quantity {
+	margin-left: 500px;
+}
+#quantity table tr td {
+	border: 1px solid #ccc;
+	text-align: center;
+}
+#secondquantity {
+	margin-left: 500px;
+}
+#secondquantity table tr td {
+	border: 2px solid #ccc;
+	text-align: center;
+}
+#Total, #Totaltax, #Totalwithtax, 
+#SecondTotaltax, #SecondTotalwithtax, 
+#SecondTotal {
+	border: none;
+}
+#checkdeals img {
+	margin-left: 300px;
+}
+#reviewgallery {
+	margin-top: 130px;
+}
+#formbottom {
+	margin-bottom: 50px;
+}
+#validation {
+	float: left;
+	position: fixed;
+	margin-left: 30px;
+}
+
+/* For JQuery Function */
+
+.instr, .instr1 {
+	display: none;
+}
+
+#jqfunction {   
+   margin-left: 600px;   
+   padding: 20px;
+}
+

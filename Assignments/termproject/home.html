@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Real Estate</title>
+<meta content="Real Estate, Comp 213, term project" name="description">
+<link href="homestylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	border-width: 0px;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button/buttonA.jpg',/*url*/'button/buttonB.jpg')">
+
+<header style="z-index: 2">
+<div id="address">
+<h5>Head office: 1761 Sheppard Ave E, North York, ON Phone: (647) 231-6696</h5>
+</div>
+<hr>
+<nav id="nav">
+<table cellpadding="0" cellspacing="0" style="width: 100%">
+		<tr>
+			<td rowspan="2"><a href="#home.html">
+			<img alt="logo" src="images/logo3.png" class="auto-style2" title="Logo"></a></td>
+			<td ><h5><a href="#">HOME</a></h5></td>
+			<td ><h5><a href="contact.html">CONTACT</a></h5></td>
+			<td ><h5><a href="sitemap.html">SITE MAP</a></h5></td>
+			<td ><h5><a href="open.html">OPEN HOUSES</a></h5></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</nav>
+</header>
+<br><br><br><br><br><br><br><br><br>
+<div id="banner">
+	<div id="layer1" style="position: absolute; left: 0px; top: 143px; width: 100%; height: 600px; z-index: 1;color:white" >
+		<h1>WELCOME HOME</h1>
+		<h2>Love begins at home, and it is not how much we do...<br> but how much love we put in that action. </h2>
+	</div>
+<img class="mySlides" src="images/condo2.jpg" width="100%" height="650">
+<img class="mySlides" src="images/condo1.jpg" width="100%" height="650" >
+<img class="mySlides" src="images/p2.jpg" width="100%" height="650" >
+<img class="mySlides" src="images/p1.jpg" width="100%" height="650" >
+<img class="mySlides" src="images/p3.jpg" width="100%" height="650" >
+	<script>
+	var slideIndex = 0;
+	carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+	}
+	</script>
+</div>
+
+
+
+
+
+
+
+<table style="width: 100%">
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="auto-style1" style="width: 80px; height: 43px">
+		<a href="form.html">
+		<img id="img1" alt="Register" fp-style="fp-btn: Simple Line 1; fp-font: Arial, Helvetica, sans-serif; fp-font-size: 14; fp-font-color-normal: #565656" fp-title="Register" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button/buttonB.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button/button9.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button/buttonA.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button/buttonA.jpg')" src="button/button9.jpg" style="border: 0" width="112"></a>
+		<br>To Book an Appointment</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+
+<div id="ads">
+
+
+
+
+
+
+
+	<table style align="center" >
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="property.html"><img alt="property"  src="images/propertylist/property1.jpg" title="Detached house"></a></td>
+			<td><a href="property1.html"><img alt="property"  src="images/propertylist/condo1.jpg" title="condo"></a></td>
+			<td><a href="property2.html"><img alt="property"  src="images/propertylist/condo2.jpg"></a></td>
+			<td><a href="property3.html"><img alt="property"  src="images/propertylist/property2.jpg"></a></td>
+			<td><a href="property4.html"><img alt="property"  src="images/propertylist/property3.jpg"></a></td>
+			<td><img alt="property"  src="images/propertylist/condo3.jpg"></td>
+			<td><img alt="property"  src="images/propertylist/property4.jpg"></td>
+		</tr>
+		<tr>
+			<td><h5>Detached<br><br>1234 Parkway Forest Dr.<br>North York, ON<br>
+			$749,000</h5></td>
+			<td><h5>Condo Apt<br><br>34 Hilcrest Ave<br>Mississauga, ON<br>
+			$309,000</h5></td>
+			<td><h5>Apartment<br><br>109 Young St<br>Toronto, ON<br>
+			$325,000</h5></td>
+			<td><h5>Condo Apt<br><br>2207 Elm Dr<br>Scarborough, ON<br>
+			$425,000</h5></td>
+			<td><h5>Semi-Detached<br><br>1233 Queenston<br>Mississauga, ON<br>
+			$625,000</h5></td>
+			<td><h5>Condo Apt<br><br>60 Absolute Ave<br>Mississauga, ON<br>
+			$450,000</h5></td>
+			<td><h5>Single Family<br><br>999 Tea Garden<br>Brampton, ON<br>
+			$432,000</h5></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><span id="sold"><img alt="property"  src="images/propertylist/sold.png"></span></td>
+			<td><span id="sold"><img alt="property"  src="images/propertylist/sold.png"></span></td>
+		</tr>
+	</table>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="quote">
+<h3>"Home is the place where, when you have to go there, they have to take you in." <br>- Robert Frost </h3>
+</div>
+<div class="personal"><img alt="photo" src="images/nik1.png" title="Photo"><br>Chandra K. Rai<br>Real Estate Agent</div>
+<div class="lines">
+<p>Thank you for choosing us for your dream home. <br>We put your interests ahead of our own. We obey all lawful instructions and give you best service.</p>
+Call us: 647 231 6696</div>
+
+<div id="featured">
+</div>
+
+
+
+<div class="property">
+	<table style="width: 90%" align="center">
+		<tr>
+			<td class="auto-style1" colspan="5" style="height: 43px">
+			<h4>Featured Properties</h4></td>
+		</tr>
+		<tr>
+			<td class="auto-style1" style="width: 80px; height: 43px">
+	<img alt="property"  src="images/property/home.jpg" title="Detached House"></td>
+			<td class="auto-style1" style="width: 80px; height: 43px">
+	<img alt="property"  src="images/property/home2.jpg" title="Detached House"></td>
+			<td class="auto-style1" style="width: 80px; height: 43px">
+	<img alt="property"  src="images/property/home3.jpg" title="Modern Bungalow"></td>
+			<td class="auto-style1" style="width: 80px; height: 43px">
+	<img alt="property"  src="images/property/home5.jpg" title="5 Beds House"></td>
+
+			<td class="auto-style1" style="width: 80px; height: 43px">
+	<img alt="property"  src="images/property/home4.jpg" title="Detached House"></td>
+		</tr>
+		<tr>
+			<td class="auto-style1" style="width: 100px; height: 43px" valign="top">
+			Kingston, ON</td>
+			<td class="auto-style1" style="width: 100px; height: 43px" valign="top">
+			Barrie, ON</td>
+			<td class="auto-style1" style="width: 100px; height: 43px" valign="top">
+			Yorkmills, ON</td>
+			<td class="auto-style1" style="width: 100px; height: 43px" valign="top">
+			Scarborough, ON</td>
+			<td class="auto-style1" style="width: 100px; height: 43px" valign="top">
+			Toronto, ON</td>
+		</tr>
+	</table>
+</div>
+
+
+<div>
+
+</div>
+
+
+
+
+
+<footer>
+<div id="icons">
+	<table style="width: 100%">
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Contact<br><hr></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>Connect to Social Media<br><hr></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>1761 Sheppard Ave E<br> North York, ON<br>Phone: (647) 231-6696<br>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+			<a href="http://www.facebook.com">
+			<img alt="facebook" height="35" src="images/facebook.png" width="35" class="auto-style2"></a><a href="http://www.twitter.com"><img alt="twitter" height="35" src="images/twitter.png" width="35" class="auto-style2"></a><a href="http://www.youtube.com"><img alt="youtube" height="35" src="images/youtube.png" width="35" class="auto-style2"></a></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</div>
+<div id="copyright">
+<h5>
+<table style="width: 100%">
+	<tr>
+		<td>&nbsp;</td>
+		<td style="width: 106px">&nbsp;</td>
+		<td style="width: 629px">&copy;&nbsp;Copyright Chandra K. Rai  - Web Interface Design - Fall 2016<br>(Student ID No. 300890510)<br>Powered by: JFILOTTI  Web Interface Design, School of Software Engineering and Applied Science</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+</h5>
+</div>
+</footer>
+</body>
+</html>

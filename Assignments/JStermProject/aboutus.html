@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+      Term Project     
+
+      Designed by: Chandra K. Rai, Timothy, Shukor, and Yunxiang      
+      Title of Project: Online Books Sale
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: aboutus.html
+-->
+
+<head>
+<link href="images\favicon.ico" rel="shortcut icon">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="Real Estate, Comp 213, term project" name="description">
+<title>Online Bookstore</title>
+<link href="css/homestylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/submitform.css" rel="stylesheet" type="text/css">
+<script src="js/javasbooksale.js" type="text/javascript"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+
+</head>
+
+<body onload="startTime()">
+
+<header>
+	<div id="topmain">
+		<div id="countertext">
+			<p style="color: green">Online Store Visited</p>
+		</div>
+		<div id="counter">
+			<img alt="free website counter" border="0" src="https://counter7.fcs.ovh/private/freecounterstat.php?c=6dbc2482dd2ce52965697422baaed8c7" title="free website counter">
+		</div>
+		<div id="address">
+			<h5>Head office: 1761 Sheppard Ave E, North York, ON Phone: (647) 231-6696</h5>
+		</div>
+	</div>
+	<div id="nav">
+		<table cellpadding="0" cellspacing="0" style="width: 100%">
+			<tr>
+				<td rowspan="2"><a href="#home.html">
+				<img alt="logo" src="images/logo.png" title="Logo"></a></td>
+				<td>
+				<h5><a href="home.html">HOME</a></h5>
+				</td>
+				<td>
+				<h5><a href="review.html">REVIEW</a></h5>
+				</td>
+				<td>
+				<h5><a href="gallery.html">DEALS</a></h5>
+				</td>
+				<td>
+				<h5><a href="aboutus.html">ABOUT US</a></h5>
+				</td>
+			</tr>
+		</table>
+	</div>
+</header>
+<br><br><br><br><br><br>
+<div id="ads">
+	<div id="reviewgallery">
+		<div id="bookgallery">
+			<h1>Contact Information</h1>
+		</div>
+	</div>
+</div>
+<div id="mytime">
+	My Time<p id="txt"></p>
+</div>
+<script>
+
+	// Create Function for clock
+	function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    	m = checkTime(m);
+    	s = checkTime(s);
+    	document.getElementById('txt').innerHTML =
+    	h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+	}
+	
+	// add zero in front of numbers < 10
+	function checkTime(i) {
+    if (i < 10) {i = "0" + i};  
+    return i;
+	}
+</script>
+<div class="personal">
+	<img alt="photo" src="info/nik1.png" title="Photo"><br>Chandra K. Rai</div>
+	
+<div id="jqfunction">
+	<h3>Click for More Info</h3>
+<div class="instr">
+		<p id="chandra"></p>
+		
+</div>		
+<script>
+		
+	//Retrieve JSON data from file
+	var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myObj = JSON.parse(this.responseText);
+        document.getElementById("chandra").innerHTML = "Name: " + myObj[0] + "<br>" + "Program: " + myObj[1] + "<br>" + "Student No: " + myObj[2];
+    	}
+	};
+		xmlhttp.open("GET", "jsonfile/chandra.txt", true);
+		xmlhttp.send();	
+</script>
+
+<h3>Hobby</h3>
+	<div class="instr1">
+		<p id="chandra1"></p>
+
+	<script>
+		
+	//Retrieve JSON data from file
+	var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myObj = JSON.parse(this.responseText);
+        document.getElementById("chandra1").innerHTML = myObj[3] + "<br>" + myObj[4];
+    	}
+	};
+		xmlhttp.open("GET", "jsonfile/chandra.txt", true);
+		xmlhttp.send();	
+</script>
+	</div>
+</div>
+<script src="js/script.js"></script>
+<footer>
+	<div id="icons">
+		<table style="width: 100%">
+			<tr>
+				<td></td>
+				<td>
+				<h5>Contact</h5>
+				<hr></td>
+				<td></td>
+				<td></td>
+				<td>
+				<h5>Connect to Social Media</h5>
+				<hr></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td style="width: 80px; height: 43px" valign="top">
+				<h5>1761 Sheppard Ave E<br>North York, ON<br>Phone: (647) 231-6696<br>
+				</h5>
+				</td>
+				<td></td>
+				<td></td>
+				<td><a href="http://www.facebook.com">
+				<img alt="facebook" class="auto-style2" height="35" src="images/facebook.png" width="35"></a><a href="http://www.twitter.com">
+				<img alt="twitter" class="auto-style2" height="35" src="images/twitter.png" width="35"></a><a href="http://www.youtube.com">
+				<img alt="youtube" class="auto-style2" height="35" src="images/youtube.png" width="35"></a><a href="http://www.linkedin.com">
+				<img alt="linkedin" class="auto-style2" height="35" src="images/linkedin.png" width="35"></a><a href="http://www.rss.com">
+				<img alt="rss" class="auto-style2" height="35" src="images/rss.png" width="35"></a></td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	<div id="copyright">
+		<table style="width: 100%">
+			<tr>
+				<td></td>
+				<td style="width: 106px"></td>
+				<td style="width: 629px">
+				<h5>&copy;&nbsp;Copyright Chandra K. Rai - Client Side Web Development - Winter 2017<br><br>Powered 
+				by: Vinayagathas Vaithilingam Client Side Web Development, School 
+				of Software Engineering and Applied Science</h5>
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</footer>
+
+</body>
+
+</html>

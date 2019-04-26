@@ -1,0 +1,36 @@
+﻿/*
+      Term Project     
+
+      Designed by: Chandra K. Rai, Timothy, Shukor, and Yunxiang      
+      Title of Project: Online Books Sale
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: submitform.html
+*/
+
+#submitformtitle table {
+	width: 30%;
+	margin: 120px 0 0 520px;	
+	text-align:center;	
+}
+
+#p1 {
+	margin: 0 300px;
+	color:orange;
+	text-align:center;
+}
+
+#mytime {
+	float:right;
+	margin-right: 40px;
+	color: #336D81;
+	font-size: x-large;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#credits {	
+	color:#336D81;
+	font-size: 20px;
+	padding: 15px;		
+}
+

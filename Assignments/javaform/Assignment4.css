@@ -1,0 +1,144 @@
+﻿/*
+      Assignment#4     
+
+      Designed by: Chandra K. Rai & Nishan Basu
+      Student ID No: 300890510 & 300915261 
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: Assignment4.css
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#134E5E;
+    font-size:medium;    
+    background-color:#0C4161;
+    background-size: 100%;
+    background-repeat: repeat-y;
+	}
+
+#allPage {
+    opacity: .9;
+    background-color:#F3F1F6;
+    width: 900px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;    
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #808080;
+    
+	}
+
+h2 {
+    text-align: center;    
+	}
+
+h3 {
+    color:#B6C643;
+    background-color:#387385;
+	text-align:center;
+	padding: 7px;	
+	font-weight: 700;
+	box-shadow: 6px 6px 6px #808080;
+	border-radius: 5px;
+	margin: 50px;
+	}
+
+h4 {
+	margin: 30px; 
+	}
+
+p {
+	float:right; color:#C1CD25; font-weight:bold;
+	}
+
+.heading {
+	color:#C1CD25;
+	}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+	}
+
+td {
+    padding: 10px;
+    white-space:nowrap;
+	}
+
+fieldset {
+	border-radius: 15px;	
+	margin:15px;
+	box-shadow: 5px 5px 5px #808080;		
+	}
+label:before { content:"*"; color:red; font-size:25px;}
+.noastlabel:before {content: none;}
+
+#howhear {
+	background-image:URL('images/pen.png');
+    padding: 6px 10px 6px 33px;
+    background-repeat: no-repeat;
+}
+
+#applyButton {
+   border: 0px solid #0a3c59;
+   border-radius:5px;
+   background: #1e1e1e;     
+   padding: 10px 20px;  
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #e1e8ed;
+   font-size: 16px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#applyButton:hover {
+   border: 0px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #3665ad;
+   }
+#applyButton:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 0px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+   
+#copyright {
+	margin-left:0px;
+	}
+
+#online img {
+	float:left; margin-right: 15px;
+   }   
+   
+input[type=text], #password, 
+#confirmpass, #previouseduc, 
+#gender, #region, #country {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #808080;
+    font-size: 16px;    
+    background-color: white;  
+    background-repeat: no-repeat;
+    padding: 6px 6px 6px 10px;    
+}

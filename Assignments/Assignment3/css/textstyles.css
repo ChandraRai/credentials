@@ -1,0 +1,161 @@
+﻿body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainbanner {width:980px; margin:0px auto; background-color:#efefef;}
+#top { background-color:black; width:100%; height:200px; overflow : hidden; padding:30px 0; border-bottom:1px #eeeeee solid;}
+#logo {
+	margin: 0 10px 0 30px; float:left;
+}
+#logo img {
+	width:200px; height:200px;
+}
+#name h2 {
+	color:white; font-size:100px; text-align:center; 	
+}
+#icons {
+	margin-right: 10px; margin-bottom:2px;
+}
+#icons img {
+	width: 35px; height:35px; padding: 1px 1px 1px 1px;
+}
+#icons ul li {
+	display:inline; 
+}
+#icons p {
+	color: white;
+}
+#icons {
+	float:right;
+}
+#topnav{
+	background-color:#333333; clear:both;
+}
+#topnav ul {
+	width:941px; float:left; margin:0; background-color:#333333; border-bottom: 3px #cccccc solid; 
+}
+#topnav ul li{
+	display:inline; font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#topnav ul li a {
+	float:left; padding:10px 20px; text-decoration:none;
+}
+#topnav a:link {color:#ffffff;}
+#topnav a:visited {color:#ffffff;}
+#topnav a:active {color:#ffffff;}
+#topnav a:hover {color:#ffffff; background-color:#800000;}
+#topnav a:link {color:#ffffff}
+#topnav a:link {color:#ffffff}
+
+#banner img{
+	width:980px; height:450px; 
+	}
+
+#banner h4{
+	text-align: center;
+}
+
+
+#subbanner {
+	width:100%; background-color: #555555; padding :5px 0; overflow: hidden;	
+}	
+#subbanner h3{
+	color:#ffffff; font-size: 14px; font-weight:bold; text-align:center;line-height:50%; 
+}
+#content p {
+
+    text-indent: 50px; padding: 0 0 0 20px; line-height: 30px;
+}
+#content p:first-letter {
+	font-size: 2em; font-weight: bold; color: black; font-family: "Lucida Calligraphy";
+}
+
+#content h2 {
+    padding: 0 0 0 20px;
+}
+
+#content img{
+	width:250px; height:250px; 	padding:15px; border:1px #888888 solid; margin:5px 5px 5px 25px; 
+}
+
+
+table {
+	 width: 60%; margin:auto; border-spacing: 0;
+}
+
+table td:hover {background-color:#efefef;}
+
+table td {
+	height: 30px; padding: 8px;
+}
+table tr td
+{
+	width: 80px;
+}
+
+table tr td a {
+	text-decoration: none; color:black;
+}
+
+
+
+
+table tr:nth-child(even) {
+    background-color:#efefef; 
+}
+table  tr:nth-child(odd) {
+    background-color:white;
+}
+table caption{
+	text-align: left; padding: 30px 20px 20px 20px; font-weight:bold;
+} 
+
+view {
+	text-align:center;
+}  
+#hotspot img{
+	width:650px; height:300px; margin-left:165px; margin-top:10px; 	padding:15px; border:1px #888888 solid;
+	}
+#hotspot h4{
+	text-align:center; padding: 30px 0 0 0;
+}
+#map img {
+width:660px; height: 450px; margin-left:165px; margin-top:10px; padding:15px; border:1px #888888 solid;
+}	
+	
+
+#comment h4 {
+	text-align:center; padding: 20px 0 0 0;
+}
+
+#switch {
+	text-align:center; padding:30px;
+}
+#switch a {
+	text-decoration: none; color:black;
+}
+
+#footer {
+	text-align:center;
+}
+#last {
+	text-align:center; background-color:white; padding:0;
+}
+#last h5 {
+	background-image:url('../images/metallic1.jpg'); color:white; padding:10px;
+}   
+#banner h3 {
+	text-align: center;
+} 
+#banner p {
+	text-align:center;
+} 
+
+.tyre {
+	text-align: center;
+}   
+
+.tyreimage{
+	width:800px; height:600px; margin-left:90px
+}
+    
+    

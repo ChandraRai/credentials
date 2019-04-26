@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<!--
+      Assignment#4     
+
+      Designed by: Chandra K. Rai & Nishan Basu
+      Student ID No: 300890510 & 300915261 
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: results.html
+-->
+<head>
+    <meta content="en-us" http-equiv="Content-Language">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Apply Online - Submitted Data</title>
+    <link href="Assignment4.css" rel="stylesheet" type="text/css"> 
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div id="allPage">
+        <header>
+            <div>
+                <h2 class="heading">You have successfully submitted your information. We will assess and get back to you soon.</h2></div>
+        </header>
+        
+             <script>
+             var formData = location.search;
+             formData = formData.substring(1, formData.length);
+             while (formData.indexOf("+") !== -1) {
+                formData = formData.replace("+", " ");
+             }
+             formData = decodeURIComponent(formData);
+             var formArray = formData.split("&");
+             for (var i = 0; i < formArray.length; i = i + 1) {
+                document.write("<h5>" + formArray[i] + "</h5>");
+             }
+            </script>    
+    </div>       
+</body>
+</html>

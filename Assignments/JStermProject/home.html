@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+      Term Project     
+
+      Designed by: Chandra K. Rai, Timothy, Shukor, and Yunxiang     
+      Title of Project: Online Books Sale
+      Submitted to: Vinayagathas Vaithilingam   
+
+      Filename: home.html
+-->
+
+<head>
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="Real Estate, Comp 213, term project" name="description">
+<title>Online Bookstore</title>
+<link href="css\homestylesheet.css" rel="stylesheet" type="text/css">
+<script src="js\javasbooksale.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+	<div id="topmain">
+		<div id="countertext">
+			<p style="color: green">Online Store Visited</p>
+		</div>
+		<div id="counter">
+			<img alt="free website counter" border="0" src="https://counter7.fcs.ovh/private/freecounterstat.php?c=6dbc2482dd2ce52965697422baaed8c7" title="free website counter">
+		</div>
+		<div id="address">
+			<h5>Head office: 1761 Sheppard Ave E, North York, ON Phone: (647) 231-6696</h5>
+		</div>
+	</div>
+	<div id="nav">
+		<table cellpadding="0" cellspacing="0" style="width: 100%">
+			<tr>
+				<td rowspan="2"><a href="#home.html">
+				<img alt="logo" src="images/logo.png" title="Logo"></a></td>
+				<td>
+				<h5><a href="#">HOME</a></h5>
+				</td>
+				<td>
+				<h5><a href="review.html">REVIEW</a></h5>
+				</td>
+				<td>
+				<h5><a href="gallery.html">DEALS</a></h5>
+				</td>
+				<td>
+				<h5><a href="aboutus.html">ABOUT US</a></h5>
+				</td>
+			</tr>
+		</table>
+	</div>
+</header>
+<br><br><br><br>
+<div id="reviewgallery">
+</div>
+<div id="banner">
+	<div id="layer1">
+		<h1>WELCOME TO ONLINE BOOKSTORE</h1>
+		<h2>“A room without books is like a body without a soul.”<br>― Marcus Tullius 
+		Cicero</h2>
+	</div>
+	<img class="mySlides" height="650" src="images/condo.jpg" width="100%">
+	<img class="mySlides" height="650" src="images/condo1.jpg" width="100%">
+	<img class="mySlides" height="650" src="images/condo2.jpg" width="100%">
+	<img class="mySlides" height="650" src="images/p1.jpg" width="100%">
+	<img class="mySlides" height="650" src="images/book.jpg" width="100%">
+	
+	<script>
+	
+			// Creating picutre slider
+			var slideIndex = 0;
+				carousel();
+			function carousel() {
+    		var i;
+    		var x = document.getElementsByClassName("mySlides");
+    		for (i = 0; i < x.length; i++) {
+      			x[i].style.display = "none";
+    			}
+    				slideIndex++;
+    		if (slideIndex > x.length) {slideIndex = 1}
+    			x[slideIndex-1].style.display = "block";
+    			
+    			// Change image every 3 seconds
+    			setTimeout(carousel, 3000); 
+				}
+	</script>
+	
+</div>
+<table style="width: 100%">
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="feature"><a href="login.html"><button id="button"><span>Sign In?</span></button></a></td>		
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<div id="ads">
+	<table align="center">
+		<tr>
+			<td><span id="sold">
+			<img alt="property" src="images/booklist/sold.png"></span></td>
+			<td><span id="sold">
+			<img alt="property" src="images/booklist/sold.png"></span></td>
+		</tr>
+		<tr>
+			<td><a href="images/six.jpg">
+			<img alt="six" src="images/six.jpg" title="six"></a></td>
+			<td><a href="images/bone.jpg">
+			<img alt="bone" src="images/bone.jpg" title="bone"></a></td>
+			<td><a href="images/easy.jpg">
+			<img alt="easy" src="images/easy.jpg" title="easy"></a></td>
+			<td><a href="images/canada.jpg">
+			<img alt="Canada" src="images/canada.jpg" title="canada"></a></td>
+			<td><a href="images/villa.jpg">
+			<img alt="villa" src="images/villa.jpg"></a></td>
+			<td><a href="images/windows.jpg">
+			<img alt="property" src="images/windows.jpg"></a></td>
+			<td><a href="images/computer.jpg">
+			<img alt="property" src="images/computer.jpg"></a></td>
+		</tr>
+		<tr>
+			<td>
+			<h5>SIX WAKES<br>byMur Lafferty<br><br>$18.70 online</h5>
+			</td>
+			<td>
+			<h5>THE BONE SEASON: A NOVEL<br>bySamantha Shannon<br><br>$20.57 online</h5>
+			</td>
+			<td>
+			<h5>EASY WINDOWS 10<br>byMark Edward Soper<br><br>$22.13 online</h5>
+			</td>
+			<td>
+			<h5>LONELY PLANET CANADA 12TH ED.: 12ND EDITION<br>2207 Elm Dr<br>byKarla 
+			Lonely Planet, Karla Zimmerman, Celeste Brash<br><br>$27.92 online</h5>
+			</td>
+			<td>
+			<h5>THE VILLA<br>byRosanna Ley<br><br>$19.32</h5>
+			</td>
+			<td>
+			<h5>WINDOWS 10 FOR DUMMIES<br>byAndy Rathbone<br><br>$14.99 online</h5>
+			</td>
+			<td>
+			<h5>COMPUTER BASICS ABSOLUTE BEGINNER'S GUIDE, WINDOWS 10 EDITION (INCLUDES 
+			CONTENT UPDATE PROGRAM)<br>byMichael Miller<br><br>$26.80 online</h5>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="quote">
+	<h3>THE TURNING POINT<br>Paperback | January 12, 2016</h3>
+	by Marie Meyer </div>
+<div class="personal">
+	<img alt="photo" src="images/turning.jpg" title="Photo"><br>$22.99<br>Earn 115 plum points</div>
+<div class="lines">
+	<div id="homefieldset">
+		<fieldset>
+		<p>It's funny how a piece of paper can change your life-a diploma, a ticket 
+		. . .a plain, white envelope For as long as I could remember, I was the 
+		girl with the plan. Good college, good medical school, good career. I would 
+		save lives instead of standing by helplessly, watching while they slipped 
+		away. That was before my father called for the first time in fifteen years 
+		to tell me about the terminal illness stealing his life-an illness that 
+		might be stealing mine, too. It was before he gave me the name of a doctor 
+		and a plane ticket to Italy. Before I flew across an ocean. Before I realized 
+		how brilliantly bright life could be. Before I met Lucas. He's everything 
+		I've always wanted, and the timing couldn't be worse. I can't do this to 
+		him-he deserves so much better. My head tells me I can't afford to fall 
+		in love with Lucas, but my heart won't listen. Lucas is fearless about the 
+		future, while I'm not even sure I have one. There's only one way to know 
+		what's ahead and it's waiting for me at home inside a plain, white envelope. 
+		All I have to do, is open it . . .</p>
+		<aside><a href="gallery.html">Book Review</a></aside>
+		</fieldset> </div>
+</div>
+<div id="featured">
+</div>
+<div class="property">
+	<table align="center" style="width: 100%">
+		<tr>
+			<td class="feature1" colspan="5" style="height: 43px">
+			<h2>&hearts;&hearts; New Arrivals &hearts;&hearts;</h2>
+			</td>
+		</tr>
+		<tr>
+			<td class="feature" style="width: 80px; height: 43px"><a href="images/booklist/opening.jpg">
+			<img alt="Opening My Heart" src="images/booklist/opening.jpg" title="Opening My Heart"></a></td>
+			<td class="feature" style="width: 80px; height: 43px"><a href="images/booklist/good.jpg">
+			<img alt="Good Night from London" src="images/booklist/good.jpg" title="Good Night from London"></a></td>
+			<td class="feature" style="width: 80px; height: 43px"><a href="images/booklist/neil.jpg">
+			<img alt="Neil DeGrasse Tyson" src="images/booklist/neil.jpg" title="Neil DeGrasse Tyson"></a></td>
+			<td class="feature" style="width: 80px; height: 43px"><a href="images/booklist/force.jpg">
+			<img alt="Forces of Nature" src="images/booklist/force.jpg" title="Forces of Nature"></a></td>
+			<td class="feature" style="width: 80px; height: 43px"><a href="images/booklist/unshaken.jpg">
+			<img alt="Unshaken" src="images/booklist/unshaken.jpg" title="Unshaken"></a></td>
+		</tr>
+		<tr>
+			<td class="feature" style="width: 100px; height: 43px" valign="top">
+			<h5>OPENING MY HEART: A JOURNEY FROM NURSE TO PATIENT AND BACK AGAIN<br>
+			$8.00 online</h5>
+			</td>
+			<td class="feature" style="width: 100px; height: 43px" valign="top">
+			<h5>GOODNIGHT FROM LONDON: A NOVEL<br>$19.99</h5>
+			</td>
+			<td class="feature" style="width: 100px; height: 43px" valign="top">
+			<h5>ASTROPHYSICS FOR PEOPLE IN A HURRY<br>$19.18 online</h5>
+			</td>
+			<td class="feature" style="width: 100px; height: 43px" valign="top">
+			<h5>FORCES OF NATURE<br>$16.04 online</h5>
+			</td>
+			<td class="feature" style="width: 100px; height: 43px" valign="top">
+			<h5>UNSHAKEN STUDY GUIDE AND PERSONAL REFLECTIONS: PRAYING BOLDLY FOR 
+			YOUR FAMILY AND YOUR FUTURE<br>$17.99</h5>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="ads">
+	<table align="center" style="">
+		<tr>
+			<td><a href="books2/bees.jpg">
+			<img alt="six" src="books2/bees.jpg" title="six"></a></td>
+			<td><a href="books2/brave.jpg">
+			<img alt="bone" src="books2/brave.jpg" title="bone"></a></td>
+			<td><a href="books2/life.jpg">
+			<img alt="easy" src="books2/life.jpg" title="easy"></a></td>
+			<td><a href="books2/you.jpg">
+			<img alt="Canada" src="books2/you.jpg" title="canada"></a></td>
+			<td><a href="books2/heaven.jpg">
+			<img alt="villa" src="books2/heaven.jpg"></a></td>
+			<td><a href="books2/dance.jpg">
+			<img alt="property" src="books2/dance.jpg"></a></td>
+			<td><a href="books2/how.jpg">
+			<img alt="property" src="books2/how.jpg"></a></td>
+		</tr>
+		<tr>
+			<td>
+			<h5>Storey's Guide to Keeping Honey Bees: Honey Production, Pollination, 
+			Bee Health<br>By (authors): Bonney, Richard and Sanford, Malcolm T.<br>
+			<br>$ 29.95 online</h5>
+			</td>
+			<td>
+			<h5>Brave New World<br>By (author): Huxley, Aldous<br><br>$ 16.95 online</h5>
+			</td>
+			<td>
+			<h5>My Life on the Road<br>By (author): Steinem, Gloria<br><br>$ 38.25 
+			online</h5>
+			</td>
+			<td>
+			<h5>The You I've Never Known<br>By (author): Hopkins, Ellen<br><br>$ 
+			25.99 online</h5>
+			</td>
+			<td>
+			<h5>Little Heaven: A Novel<br>By (author): Cutter, Nick<br><br>$19.32</h5>
+			</td>
+			<td>
+			<h5>Dance of Fear: Rising Above Anxiety, Fear, and Shame to be Your 
+			Best and Bravest Self<br>By (author): Lerner, Harriet<br><br>$ 17.50 
+			online</h5>
+			</td>
+			<td>
+			<h5>How to Hang a Witch<br>By (author): Mather, Adriana<br><br>$24.50 
+			online</h5>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="checkdeals">
+<img alt="check deals" src="images/deals.gif">
+<a href="gallery.html"><button id="button"><span>Deals</span></button></a>
+</div>
+<footer>
+	<div id="icons">
+		<table style="width: 100%">
+			<tr>
+				<td></td>
+				<td>
+				<h5>Contact</h5>
+				<hr></td>
+				<td></td>
+				<td></td>
+				<td>
+				<h5>Connect to Social Media</h5>
+				<hr></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td style="width: 80px; height: 43px" valign="top">
+				<h5>1761 Sheppard Ave E<br>North York, ON<br>Phone: (647) 231-6696<br>
+				</h5>
+				</td>
+				<td></td>
+				<td></td>
+				<td><a href="http://www.facebook.com">
+				<img alt="facebook" class="auto-style2" height="35" src="images/facebook.png" width="35"></a><a href="http://www.twitter.com">
+				<img alt="twitter" class="auto-style2" height="35" src="images/twitter.png" width="35"></a><a href="http://www.youtube.com">
+				<img alt="youtube" class="auto-style2" height="35" src="images/youtube.png" width="35"></a><a href="http://www.linkedin.com">
+				<img alt="linkedin" class="auto-style2" height="35" src="images/linkedin.png" width="35"></a><a href="http://www.rss.com">
+				<img alt="rss" class="auto-style2" height="35" src="images/rss.png" width="35"></a></td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	<div id="copyright">
+		<table style="width: 100%">
+			<tr>
+				<td></td>
+				<td style="width: 106px"></td>
+				<td style="width: 629px">
+				<h5>&copy;&nbsp;Copyright Chandra K. Rai - Client Side Web Development 
+				- Winter 2017<br><br>Powered by: Vinayagathas 
+				Vaithilingam Client Side Web Development, School of Software Engineering 
+				and Applied Science</h5>
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</footer>
+</body>
+</html>
